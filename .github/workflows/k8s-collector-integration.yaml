@@ -2,13 +2,13 @@ name: k8s-collector-integration
 
 on:
   workflow_call:
-  push:
-    branches:
-      - main
-  pull_request:
-    paths:
-      - "crates/k8s-collector/**"
-      - ".github/workflows/k8s-collector-integration.yaml"
+  # push:
+  #   branches:
+  #     - main
+  # pull_request:
+  #   paths:
+  #     - "crates/k8s-collector/**"
+  #     - ".github/workflows/k8s-collector-integration.yaml"
 
 jobs:
   build-k8s-collector-tests:
