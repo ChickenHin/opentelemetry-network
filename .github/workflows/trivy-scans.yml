@@ -1,13 +1,13 @@
 name: trivy scans
 
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-    paths:
-      - '.github/workflows/trivy-scans.yml'
-      - '.trivyignore'
+  # push:
+  #   branches:
+  #     - main
+  # pull_request:
+  #   paths:
+  #     - '.github/workflows/trivy-scans.yml'
+  #     - '.trivyignore'
 
 permissions:
   contents: read
